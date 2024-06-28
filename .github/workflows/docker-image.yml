@@ -33,4 +33,3 @@ jobs:
         push: true
         tags: |
           ghcr.io/hidennet/vps-image:latest
-          ghcr.io/hidennet/vps-image:${{ github.sha }}
