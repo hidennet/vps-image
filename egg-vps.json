@@ -10,7 +10,7 @@
     "description": "Run a VPS in pterodactyl!",
     "features": null,
     "docker_images": {
-        "quay.io\/ydrag0n\/pterodactyl-vps-egg": "quay.io\/ydrag0n\/pterodactyl-vps-egg"
+        "ghcr.io/hidennet/vps-image:vps-egg": "ghcr.io/hidennet/vps-image:vps-egg"
     },
     "file_denylist": [],
     "startup": "bash install.sh",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "quay.io\/ydrag0n\/pterodactyl-vps-egg",
+            "container": "ghcr.io/hidennet/vps-image:vps-egg",
             "entrypoint": "bash"
         }
     },
